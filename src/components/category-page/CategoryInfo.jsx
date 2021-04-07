@@ -12,7 +12,7 @@ function CategoryInfo() {
   ])
 
   function getCategoryInfos() {
-    let adress = `http://localhost:3001/api/category/${params.category_url}`
+    let adress = `https://react-ecommerce-devshop.herokuapp.com/api/category/${params.category_url}`
     axios.get(adress).then((results) => {
       setCategoryInfo(results.data)
     })

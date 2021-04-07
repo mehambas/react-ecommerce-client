@@ -13,7 +13,9 @@ function ProductDetail() {
 
   function getProductDetails() {
     axios
-      .get(`http://localhost:3001/api/product/detail/${params.id}`)
+      .get(
+        `https://react-ecommerce-devshop.herokuapp.com/api/product/detail/${params.id}`
+      )
       .then((results) => {
         setProductDetails(results.data[0])
       })
@@ -29,7 +31,6 @@ function ProductDetail() {
         category_url={productDetails.category_url}
       />
       <div className='container'>
-
         <div className='card'>
           <div className='row no-gutters'>
             <aside className='col-md-6'>
@@ -159,10 +160,10 @@ function ProductDetail() {
           </div>
         </div>
       </div>
-      <ProductSimilar category_url = {productDetails.category_url}
+      <ProductSimilar
+        category_url={productDetails.category_url}
         id={productDetails._id}
       />
-      
     </>
   )
 }

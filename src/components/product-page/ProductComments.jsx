@@ -9,7 +9,9 @@ function ProductComments() {
 
   function getComments() {
     axios
-      .get(`http://localhost:3001/api/comments/${params.id}`)
+      .get(
+        `https://react-ecommerce-devshop.herokuapp.com/api/comments/${params.id}`
+      )
       .then((results) => {
         setComment(results.data)
       })
@@ -27,7 +29,7 @@ function ProductComments() {
                 <h3>Reviews</h3>
                 <div className='rating-wrap'>
                   <ul class='rating-stars'>
-                    <li class='stars-active' style={{width: '88%'}}>
+                    <li class='stars-active' style={{ width: "88%" }}>
                       <i class='fa fa-star' aria-hidden='true'></i>
                       <i class='fa fa-star' aria-hidden='true'></i>
                       <i class='fa fa-star' aria-hidden='true'></i>

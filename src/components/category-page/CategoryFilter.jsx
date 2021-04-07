@@ -51,7 +51,7 @@ function CategoryFilter() {
   const [brands, setBrands] = useState([])
 
   function getBrands() {
-    let adress = `http://localhost:3001/api/category/filter/brand/${params.category_url}`
+    let adress = `https://react-ecommerce-devshop.herokuapp.com/api/category/filter/brand/${params.category_url}`
     axios.get(adress).then((results) => {
       setBrands(results.data)
     })

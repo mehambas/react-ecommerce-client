@@ -21,7 +21,7 @@ function CategoryProducts() {
   const [counts, setCount] = useState()
 
   function getProducts() {
-    let adress = `http://localhost:3001/api/category/${params.category_url}/${page}/?option=${option}&brand=${brand}&min=${min}&max=${max}`
+    let adress = `https://react-ecommerce-devshop.herokuapp.com/api/category/${params.category_url}/${page}/?option=${option}&brand=${brand}&min=${min}&max=${max}`
     axios.get(adress).then((results) => {
       setProducts(results.data)
     })
@@ -30,7 +30,7 @@ function CategoryProducts() {
   // console.log(products[0].category)
 
   function getCounts() {
-    let adress = `http://localhost:3001/api/productcount/${params.category_url}/?brand=${brand}&min=${min}&max=${max}`
+    let adress = `https://react-ecommerce-devshop.herokuapp.com/api/productcount/${params.category_url}/?brand=${brand}&min=${min}&max=${max}`
     axios.get(adress).then((results) => {
       setCount(results.data.count)
     })

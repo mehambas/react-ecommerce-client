@@ -13,7 +13,9 @@ function CardGroup({ name, name2, name3, name4, name5 }) {
   // Functions
   function getClothings() {
     axios
-      .get("http://localhost:3001/api/featuredproducts/clothing")
+      .get(
+        "https://react-ecommerce-devshop.herokuapp.com/api/featuredproducts/clothing"
+      )
       .then((results) => {
         setClothings(results.data)
       })
@@ -21,7 +23,9 @@ function CardGroup({ name, name2, name3, name4, name5 }) {
 
   function getShoes() {
     axios
-      .get("http://localhost:3001/api/featuredproducts/shoes")
+      .get(
+        "https://react-ecommerce-devshop.herokuapp.com/api/featuredproducts/shoes"
+      )
       .then((results) => {
         setShoes(results.data)
       })
@@ -29,7 +33,9 @@ function CardGroup({ name, name2, name3, name4, name5 }) {
 
   function getAccessiories() {
     axios
-      .get("http://localhost:3001/api/featuredproducts/accessories")
+      .get(
+        "https://react-ecommerce-devshop.herokuapp.com/api/featuredproducts/accessories"
+      )
       .then((results) => {
         setAccessiories(results.data)
       })
@@ -37,7 +43,9 @@ function CardGroup({ name, name2, name3, name4, name5 }) {
 
   function getBags() {
     axios
-      .get("http://localhost:3001/api/featuredproducts/bags")
+      .get(
+        "https://react-ecommerce-devshop.herokuapp.com/api/featuredproducts/bags"
+      )
       .then((results) => {
         setBags(results.data)
       })
@@ -45,7 +53,9 @@ function CardGroup({ name, name2, name3, name4, name5 }) {
 
   function getSports() {
     axios
-      .get("http://localhost:3001/api/featuredproducts/sport")
+      .get(
+        "https://react-ecommerce-devshop.herokuapp.com/api/featuredproducts/sport"
+      )
       .then((results) => {
         setSports(results.data)
       })

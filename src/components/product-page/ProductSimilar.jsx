@@ -7,7 +7,7 @@ function ProductSimilar(props) {
 
   function getSimilarProducts() {
     if (props.category_url !== undefined) {
-      var adress = `http://localhost:3001/api/product/similar/${props.category_url}/${props.id}`
+      var adress = `https://react-ecommerce-devshop.herokuapp.com/api/product/similar/${props.category_url}/${props.id}`
       axios.get(adress).then((results) => {
         setSimilarProduct(results.data)
       })

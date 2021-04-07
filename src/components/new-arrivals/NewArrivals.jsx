@@ -9,9 +9,11 @@ function NewArrivals() {
   const [newProducts, setNewProducts] = useState([])
 
   function getNewProducts() {
-    axios.get("http://localhost:3001/api/newarrivals").then((results) => {
-      setNewProducts(results.data)
-    })
+    axios
+      .get("https://react-ecommerce-devshop.herokuapp.com/api/newarrivals")
+      .then((results) => {
+        setNewProducts(results.data)
+      })
   }
 
   useEffect(getNewProducts, [])
