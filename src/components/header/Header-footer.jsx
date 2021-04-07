@@ -1,5 +1,5 @@
 import React from "react"
-
+import { Link } from "react-router-dom"
 
 function HeaderFooter() {
   return (
@@ -7,27 +7,27 @@ function HeaderFooter() {
       <div className='categories d-flex justify-content-between align-items-center'>
         <ul className='d-flex'>
           <li>
-            <a href='/category/new'>New</a>
+            <Link to='/category/new'>New</Link>
           </li>
           <li>
-            <a href='/category/clothing?page=1'>Clothing</a>
+            <Link to='/category/clothing?page=1'>Clothing</Link>
           </li>
           <li>
-            <a href='/category/shoes?page=1'>Shoes</a>
+            <Link to='/category/shoes?page=1'>Shoes</Link>
           </li>
           <li>
-            <a href='/category/sport?page=1'>Sports</a>
+            <Link to='/category/sport?page=1'>Sports</Link>
           </li>
           <li>
-            <a href='/category/accessories?page=1'>Accesories</a>
+            <Link to='/category/accessories?page=1'>Accesories</Link>
           </li>
           <li>
-            <a href='/category/bags?page=1'>Bags</a>
+            <Link to='/category/bags?page=1'>Bags</Link>
           </li>
           <li>
-            <a href='' className='sale'>
+            <Link to='' className='sale'>
               Sale %
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
