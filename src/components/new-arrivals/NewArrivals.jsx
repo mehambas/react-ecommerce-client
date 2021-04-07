@@ -28,11 +28,11 @@ function NewArrivals() {
           <a className='active' href=''>
             All
           </a>
-          <Link to=''>Clothing</a>
-          <Link to=''>Shoes</a>
-          <Link to=''>Sports</a>
-          <Link to=''>Accesories</a>
-          <Link to=''>Bags</a>
+          <Link to=''>Clothing</Link>
+          <Link to=''>Shoes</Link>
+          <Link to=''>Sports</Link>
+          <Link to=''>Accesories</Link>
+          <Link to=''>Bags</Link>
         </div>
         <div className='row cards d-flex justify-content-between new-arrivals-main'>
           {newProducts.map((product) => {

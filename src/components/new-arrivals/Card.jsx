@@ -44,7 +44,7 @@ function Card({
             <span className='price-sale'>€{discount_price}</span>
           </div>
         </div>
-      </a>
+      </Link>
     </div>
   )
 }
