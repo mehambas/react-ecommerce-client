@@ -3,7 +3,10 @@ import "./signin.css"
 
 function SignInPageTemp() {
   return (
-    <section className='section-conten padding-y signin-outside' style={{ minheight: "84vh" }}>
+    <section
+      className='section-conten padding-y signin-outside'
+      style={{ minheight: "84vh" }}
+    >
       <div
         className='card mx-auto'
         style={{ maxWidth: "380px", marginTop: "100px" }}
@@ -11,10 +14,10 @@ function SignInPageTemp() {
         <div className='card-body card-body-from'>
           <h4 className='card-title mb-4'>Sign in</h4>
           <form>
-            <a href='#' className='btn btn-facebook btn-block mb-2'>
+            <Link to='#' className='btn btn-facebook btn-block mb-2'>
               <i className='fab fa-facebook-f'></i> &nbsp; Sign in with Facebook
             </a>
-            <a href='#' className='btn btn-google btn-block mb-4'>
+            <Link to='#' className='btn btn-google btn-block mb-4'>
               <i className='fab fa-google'></i> &nbsp; Sign in with Google
             </a>
             <div className='form-group'>
@@ -35,7 +38,7 @@ function SignInPageTemp() {
             </div>
 
             <div className='form-group'>
-              <a href='#' className='float-right'>
+              <Link to='#' className='float-right'>
                 Forgot password?
               </a>
               <label className='float-left custom-control custom-checkbox'>
@@ -57,7 +60,7 @@ function SignInPageTemp() {
       </div>
 
       <p className='text-center mt-4'>
-        Don't have account? <a href='#'>Sign up</a>
+        Don't have account? <Link to='#'>Sign up</a>
       </p>
       <br />
       <br />

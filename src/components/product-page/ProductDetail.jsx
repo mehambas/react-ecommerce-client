@@ -148,10 +148,10 @@ function ProductDetail() {
                     </div>
                   </div>
                 </div>
-                <a href='#' className='btn  btn-buy'>
+                <Link to='#' className='btn  btn-buy'>
                   Buy now
                 </a>
-                <a href='#' className='btn  btn-card'>
+                <Link to='#' className='btn  btn-card'>
                   <span className='text btn-card-text'>Add to cart</span>
                   <i className='fas fa-shopping-cart'></i>
                 </a>

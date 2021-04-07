@@ -25,7 +25,11 @@ function RegisterPageTemp() {
             </div>
             <div className='form-group'>
               <label>Email</label>
-              <input type='email' className='form-control email' placeholder='' />
+              <input
+                type='email'
+                className='form-control email'
+                placeholder=''
+              />
               <small className='form-text text-muted'>
                 We'll never share your email with anyone else.
               </small>
@@ -91,7 +95,7 @@ function RegisterPageTemp() {
                   checked=''
                 />
                 <div className='custom-control-label'>
-                  I am agree with <a href='#'>terms and contitions</a>
+                  I am agree with <Link to='#'>terms and contitions</a>
                 </div>
               </label>
             </div>
@@ -99,7 +103,7 @@ function RegisterPageTemp() {
         </article>
       </div>
       <p className='text-center mt-4'>
-        Have an account? <a href=''>Log In</a>
+        Have an account? <Link to=''>Log In</a>
       </p>
       <br />
       <br />

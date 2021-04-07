@@ -11,9 +11,9 @@ function ProductDetailImage(images) {
   return (
     <>
       <div className='img-big-wrap'>
-        <a href='#'>
+        <Link to='#'>
           <img src={showImage === "" ? images.one : showImage} />
-        </a>
+        </Link>
       </div>
       <div className='thumbs-wrap'>
         <a

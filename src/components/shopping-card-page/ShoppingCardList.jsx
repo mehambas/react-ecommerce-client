@@ -14,8 +14,7 @@ function ShoppingCardList() {
               <th scope='col' width='120'>
                 Price
               </th>
-              <th scope='col' className='text-right' width='200'>
-              </th>
+              <th scope='col' className='text-right' width='200'></th>
             </tr>
           </thead>
           <tbody>
@@ -26,7 +25,7 @@ function ShoppingCardList() {
                     <img src='images/items/1.jpg' className='img-sm' />
                   </div>
                   <figcaption className='info'>
-                    <a href='#' className='title text-dark'>
+                    <Link to='#' className='title text-dark'>
                       Some name of item goes here nice
                     </a>
                     <p className='text-muted small'>
@@ -59,7 +58,7 @@ function ShoppingCardList() {
                 >
                   <i className='fa fa-heart'></i>
                 </a>
-                <a href='' className='btn btn-light'>
+                <Link to='' className='btn btn-light'>
                   Remove
                 </a>
               </td>
@@ -71,7 +70,7 @@ function ShoppingCardList() {
                     <img src='images/items/2.jpg' className='img-sm' />
                   </div>
                   <figcaption className='info'>
-                    <a href='#' className='title text-dark'>
+                    <Link to='#' className='title text-dark'>
                       Product name goes here nice
                     </a>
                     <p className='text-muted small'>
@@ -105,7 +104,7 @@ function ShoppingCardList() {
                   {" "}
                   <i className='fa fa-heart'></i>
                 </a>
-                <a href='' className='btn btn-light btn-round'>
+                <Link to='' className='btn btn-light btn-round'>
                   Remove
                 </a>
               </td>
@@ -117,7 +116,7 @@ function ShoppingCardList() {
                     <img src='images/items/3.jpg' className='img-sm' />
                   </div>
                   <figcaption className='info'>
-                    <a href='#' className='title text-dark'>
+                    <Link to='#' className='title text-dark'>
                       Another name of some product goes just here
                     </a>
                     <p className='small text-muted'>
@@ -149,7 +148,7 @@ function ShoppingCardList() {
                 >
                   <i className='fa fa-heart'></i>
                 </a>
-                <a href='' className='btn btn-light btn-round'>
+                <Link to='' className='btn btn-light btn-round'>
                   Remove
                 </a>
               </td>
@@ -158,10 +157,10 @@ function ShoppingCardList() {
         </table>
 
         <div className='card-body border-top'>
-          <a href='#' className='btn btn-primary float-md-right'>
+          <Link to='#' className='btn btn-primary float-md-right'>
             Make Purchase <i className='fa fa-chevron-right'></i>
           </a>
-          <a href='#' className='btn btn-light'>
+          <Link to='#' className='btn btn-light'>
             <i className='fa fa-chevron-left'></i> Continue shopping
           </a>
         </div>
@@ -169,8 +168,8 @@ function ShoppingCardList() {
 
       <div className='alert alert-success mt-3'>
         <p className='icontext'>
-          <i className='icon text-success fa fa-truck'></i> Free Delivery within 1-2
-          weeks
+          <i className='icon text-success fa fa-truck'></i> Free Delivery within
+          1-2 weeks
         </p>
       </div>
     </main>

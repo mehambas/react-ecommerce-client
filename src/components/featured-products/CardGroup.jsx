@@ -73,7 +73,7 @@ function CardGroup({ name, name2, name3, name4, name5 }) {
       <div className='featured-header d-flex justify-content-between mt-5'>
         <span className='featured-header-left'>{name}</span>
         <span className='featured-header-right'>
-          <a href=''>Wiew All</a>
+          <Link to=''>Wiew All</a>
         </span>
       </div>
       <div className='row cards d-flex justify-content-between'>
@@ -93,7 +93,7 @@ function CardGroup({ name, name2, name3, name4, name5 }) {
       <div className='featured-header d-flex justify-content-between mt-5'>
         <span className='featured-header-left'>{name2}</span>
         <span className='featured-header-right'>
-          <a href=''>Wiew All</a>
+          <Link to=''>Wiew All</a>
         </span>
       </div>
       <div className='row cards d-flex justify-content-between'>
@@ -113,7 +113,7 @@ function CardGroup({ name, name2, name3, name4, name5 }) {
       <div className='featured-header d-flex justify-content-between mt-5'>
         <span className='featured-header-left'>{name3}</span>
         <span className='featured-header-right'>
-          <a href=''>Wiew All</a>
+          <Link to=''>Wiew All</a>
         </span>
       </div>
       <div className='row cards d-flex justify-content-between'>
@@ -133,7 +133,7 @@ function CardGroup({ name, name2, name3, name4, name5 }) {
       <div className='featured-header d-flex justify-content-between mt-5'>
         <span className='featured-header-left'>{name4}</span>
         <span className='featured-header-right'>
-          <a href=''>Wiew All</a>
+          <Link to=''>Wiew All</a>
         </span>
       </div>
       <div className='row cards d-flex justify-content-between'>
@@ -153,7 +153,7 @@ function CardGroup({ name, name2, name3, name4, name5 }) {
       <div className='featured-header d-flex justify-content-between mt-5'>
         <span className='featured-header-left'>{name5}</span>
         <span className='featured-header-right'>
-          <a href=''>Wiew All</a>
+          <Link to=''>Wiew All</a>
         </span>
       </div>
       <div className='row cards d-flex justify-content-between'>

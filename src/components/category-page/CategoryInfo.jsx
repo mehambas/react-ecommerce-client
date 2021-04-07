@@ -26,7 +26,7 @@ function CategoryInfo() {
         <nav>
           <ol className='breadcrumb text-white'>
             <li className='breadcrumb-item'>
-              <a href='/'>Home</a>
+              <Link to='/'>Home</a>
             </li>
             <li className='breadcrumb-item active' aria-current='page'>
               {categoryInfo[0].category_name}

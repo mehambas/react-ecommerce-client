@@ -37,32 +37,32 @@ function Footer() {
               </h4>
               <ul>
                 <li>
-                  <a href='' className='footer-link'>
+                  <Link to='' className='footer-link'>
                     Customer Service
                   </a>
                 </li>
                 <li>
-                  <a href='' className='footer-link'>
+                  <Link to='' className='footer-link'>
                     My Account
                   </a>
                 </li>
                 <li>
-                  <a href='' className='footer-link'>
+                  <Link to='' className='footer-link'>
                     Find Store
                   </a>
                 </li>
                 <li>
-                  <a href='' className='footer-link'>
+                  <Link to='' className='footer-link'>
                     Legal Privacy
                   </a>
                 </li>
                 <li>
-                  <a href='' className='footer-link'>
+                  <Link to='' className='footer-link'>
                     Contact
                   </a>
                 </li>
                 <li>
-                  <a href='' className='footer-link'>
+                  <Link to='' className='footer-link'>
                     Gift Card
                   </a>
                 </li>
@@ -148,7 +148,7 @@ function Footer() {
               </h4>
               <ul>
                 <li>
-                  <a href='' className='footer-link'>
+                  <Link to='' className='footer-link'>
                     <svg
                       height='1em'
                       width='1em'
@@ -163,12 +163,12 @@ function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href='' className='footer-link'>
+                  <Link to='' className='footer-link'>
                     <i class='fas fa-calendar-day'></i> 30-Day Return Policy
                   </a>
                 </li>
                 <li>
-                  <a href='' className='footer-link'>
+                  <Link to='' className='footer-link'>
                     <svg
                       height='1em'
                       width='1em'
@@ -185,7 +185,7 @@ function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href='' className='footer-link'>
+                  <Link to='' className='footer-link'>
                     <i class='far fa-clock'></i> 7/24 accesible customer service
                   </a>
                 </li>
@@ -215,26 +215,22 @@ function Footer() {
             <div className='col-lg-3 d-flex flex-column'>
               <h5>You can also find us on</h5>
               <div className='social d-flex'>
+                <Link to='' className='social-link'>
+                  <i class='fab fa-facebook-square'></i>
+                </a>
 
-                    <a href='' className='social-link'>
-                      <i class='fab fa-facebook-square'></i>
-                    </a>
+                <Link to='' className='social-link'>
+                  <i class='fab fa-twitter-square'></i>
+                </a>
 
+                <Link to='' className='social-link'>
+                  <i class='fab fa-instagram-square'></i>
+                </a>
 
-                    <a href='' className='social-link'>
-                      <i class='fab fa-twitter-square'></i>
-                    </a>
-
-
-                    <a href='' className='social-link'>
-                      <i class='fab fa-instagram-square'></i>
-                    </a>
-
-
-                    <a href='' className='social-link'>
-                      <i class='fab fa-pinterest-square'></i>
-                    </a>
-        </div>
+                <Link to='' className='social-link'>
+                  <i class='fab fa-pinterest-square'></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>

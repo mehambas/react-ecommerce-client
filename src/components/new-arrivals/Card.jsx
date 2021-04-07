@@ -12,7 +12,7 @@ function Card({
 }) {
   return (
     <div className='col-lg-2 card-comp'>
-      <a href={`/products/${_id}`}>
+      <Link to={`/products/${_id}`}>
         <div className='card-top'>
           <img src={images} alt='' />
         </div>

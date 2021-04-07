@@ -17,7 +17,7 @@ function HeaderTop() {
           </div>
         </div>
         <div className='header-top-right d-flex justify-content-center align-items-center'>
-          <a href='#'>
+          <Link to='#'>
             <i class='far fa-user-circle'></i>
             <span className='ml-2 text-white account'>My Account</span>
           </a>
