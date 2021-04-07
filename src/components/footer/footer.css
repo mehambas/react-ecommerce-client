@@ -1,0 +1,77 @@
+footer {
+  background-color: #11698e;
+  height: 100%;
+  padding: 3rem;
+  color: #fff;
+}
+
+.partner-logo {
+  width: 50px;
+  height: 35px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.904);
+}
+
+.get-help a,
+.our-promises a {
+  color: #fff;
+}
+
+.get-help a:hover,
+.our-promises a:hover {
+  text-decoration: underline;
+}
+
+.get-help h4,
+.partners-payments h4 {
+  margin-bottom: 0.5rem;
+}
+
+h4 svg {
+  margin-right: 0.7rem;
+}
+
+.our-promises {
+  margin-bottom: 2rem;
+}
+
+.our-promises li {
+  margin-bottom: 0.3rem;
+}
+
+.footer-bottom {
+  height: 5rem;
+  background-color: #08415a;
+  padding: 1rem 0;
+}
+
+.footer-bottom h5 {
+  height: 100%;
+  font-size: 0.9rem;
+  margin-bottom: 3px;
+}
+
+.storeimg {
+  width: 90px;
+  height: 30px;
+  border-radius: 7px;
+}
+
+.copyright {
+  font-size: 0.8rem;
+}
+
+.social .fab {
+  color: rgb(255, 255, 255);
+  padding: 0.4rem;
+  margin-right: 1rem;
+  margin-top: 0.2rem;
+  background-color: rgba(255, 255, 255, 0.226);
+  font-size: 1.3rem;
+  border-radius: 5px;
+  transition: background-color ease 0.3s;
+}
+
+.social .fab:hover {
+    background-color: rgba(0, 0, 0, 0.582);
+}

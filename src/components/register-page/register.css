@@ -1,0 +1,15 @@
+.register-outside {
+  background: linear-gradient(#a1c4fd, #c2e9fb);
+}
+
+.card-body {
+    background-color: rgb(231, 237, 241);
+}
+
+.form-row .form-control {
+width: 100%;
+}
+
+.email {
+  width: 100%;
+}

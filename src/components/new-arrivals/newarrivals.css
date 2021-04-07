@@ -1,0 +1,104 @@
+.new-arrivals {
+  margin: 9rem auto;
+  height: 40rem;
+}
+
+.new-arrivals-main {
+  margin: 3rem 0;
+}
+
+h2 {
+  text-decoration: underline;
+  letter-spacing: 1.2px;
+}
+
+.cards {
+  padding-top: 1rem;
+}
+
+.card-comp {
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.247);
+  padding: 0;
+  margin: 1rem 1rem;
+  position: relative;
+}
+
+.card-comp img {
+  width: 100%;
+}
+
+.fa-heart {
+  position: absolute;
+  color: #fff;
+  top: 10px;
+  right: 10px;
+  font-size: 1.3rem;
+  transition: color ease 0.3s;
+}
+.fa-heart:hover {
+  color: rgb(161, 25, 25);
+}
+
+.filters {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.filters a {
+  padding: 7px 14px;
+  margin: 0px 10px;
+  border-radius: 3px;
+  transition: ease color 0.3s, background-color ease 0.3s;
+}
+
+.filters a:hover {
+  background-color: rgba(0, 0, 0, 0.76);
+  color: #eee;
+}
+
+.filters a.active {
+  background-color: rgba(0, 0, 0, 0.76);
+  color: #eee;
+}
+
+/* card-bottom */
+
+.card-bottom {
+  padding: 0.7rem;
+  height: 9rem;
+}
+
+.brand-name {
+  font-weight: 500;
+}
+
+.product-name {
+  font-size: 0.8rem;
+}
+
+.price {
+  font-size: 0.8rem;
+  text-decoration: line-through;
+  padding-right: 1rem;
+}
+
+.price-sale {
+  color: red;
+}
+
+/* sale img */
+
+.sale-container {
+  height: 30rem;
+  /* background-color: #0f7ead; */
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+}
+
+.sale-group {
+  position: relative;
+}
+
+.sale-container .sale-group img {
+  width: 60%;
+  height: 80%;
+}

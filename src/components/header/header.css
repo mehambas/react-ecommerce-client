@@ -1,0 +1,136 @@
+/*  HEADER-TOP  */
+
+.header-top {
+  height: 2.5rem;
+  background-color: #11698e;
+  font-size: 15px;
+  padding: 0 3%;
+  font-family: "Roboto", sans-serif;
+}
+
+.header-top-left {
+  height: 100%;
+}
+
+.fa-phone {
+  color: rgba(255, 255, 255, 0.952);
+  font-size: 12px;
+  margin-right: 0.4rem;
+}
+
+.phone-number {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+}
+
+.header-email {
+  margin-left: 1rem;
+  font-size: 12px;
+}
+
+.line {
+  margin-left: 2rem;
+  margin-right: 1rem;
+  color: white;
+}
+
+.fa-user-circle {
+  color: white;
+  margin-right: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.fa-at {
+  margin-right: 0.3rem;
+}
+
+/* HEADER-MAIN */
+
+.header-main {
+  height: 5rem;
+  margin-top: 2rem;
+}
+
+.gender {
+  padding: 10px 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  transition: background ease 0.3s, color ease 0.3s;
+}
+
+.gender.active {
+  color: #fff;
+  background: #000;
+}
+
+.gender:hover {
+  color: #fff;
+  background: #000;
+}
+
+.account-icons svg {
+  font-size: 1.7rem;
+  margin-left: 0.8rem;
+}
+
+/* HEADER-FOOTER */
+
+.header-footer {
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+  height: 2.5rem;
+}
+
+.header-outside {
+  padding-bottom: 0.5rem;
+}
+
+.categories {
+  height: 100%;
+}
+
+.categories ul li:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+.categories ul li:hover a {
+  color: #000;
+}
+
+.categories ul li a {
+  padding: 8px 18px;
+}
+
+.sale {
+  color: rgb(224, 36, 36);
+  font-weight: 500;
+}
+
+.search {
+}
+
+.search input {
+  outline: none;
+  background-color: #11698e25;
+  border: none;
+  height: 35px;
+  width: 200px;
+  border-radius: 10px 0px 0px 10px;
+  padding-left: 5px;
+  font-size: 1rem;
+}
+
+.search button {
+  background-color: #11698e;
+  color: #fff;
+  border: none;
+  width: 40px;
+  height: 35px;
+  border-radius: 0px 10px 10px 0;
+  transition: ease background-color 0.3s;
+}
+
+.search button:hover {
+  background-color: #11698ed3;
+}

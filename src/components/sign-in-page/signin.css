@@ -1,0 +1,9 @@
+.signin-outside {
+   background: rgb(17,105,142);
+background: linear-gradient(0deg, rgba(17,105,142,1) 0%, rgba(208,219,224,1) 100%);
+border-bottom: 1px solid rgba(43, 136, 172, 0.705);
+}
+
+.card-body-from form .form-group input {
+    width: 100%;
+}

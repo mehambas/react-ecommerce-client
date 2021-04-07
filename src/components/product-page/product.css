@@ -1,0 +1,40 @@
+.btn-buy {
+  background-color: #11698e;
+  color: #fff;
+  transition: color ease 0.3s;
+}
+
+.btn-buy:hover {
+  opacity: 0.9;
+  color: #fff;
+}
+
+.btn-card {
+  border: 1px solid #11698e;
+  color: #11698e;
+  margin-left: 1rem;
+}
+
+.btn-card-text,
+.fa-shopping-cart {
+  color: #11698e;
+}
+
+.btn-card:hover {
+  color: #fff;
+  background-color: #11698e;
+}
+
+.btn-card:hover .btn-card-text,
+.btn-card:hover .fa-shopping-cart {
+  color: #fff;
+}
+
+.product-info {
+    margin: 1rem 0;
+}
+
+.product-detail {
+  border-top: 1px solid #11698e3b;
+  padding-top: 2rem;
+}
